@@ -7,7 +7,7 @@ import google.generativeai as genai
 app = FastAPI()
 
 # Configure Gemini API Key
-genai.configure(api_key="AIzaSyAmH0h_xuWsczg_O0QIcUlZpufLPwTYm58")
+genai.configure(api_key="")
 
 # Data Model for Request
 class Sentence(BaseModel):
