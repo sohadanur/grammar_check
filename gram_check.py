@@ -8,7 +8,7 @@ import google.generativeai as genai
 app = FastAPI()
 
 # Configure Gemini API Key
-genai.configure(api_key="AIzaSyB6J2IHYr8L2ih8pOXgVwwxoixWNZRCtWI")  # Add your API key here
+genai.configure(api_key="")  # Add your API key here
 
 # Data Model for Request
 class Paragraph(BaseModel):
